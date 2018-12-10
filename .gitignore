@@ -47,3 +47,17 @@ bower.json
 # Ignore node_modules
 node_modules/
 
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+/node_modules
+/yarn-error.log
+
+/public/assets
+
+config/database.yml
+config/application.yml

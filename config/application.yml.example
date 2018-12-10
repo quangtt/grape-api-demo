@@ -1,0 +1,13 @@
+defaults: &defaults
+  database_username: ''
+  database_password: ''
+  database_host: ''
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
